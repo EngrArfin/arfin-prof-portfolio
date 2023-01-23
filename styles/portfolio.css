@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primany{
+    color: #FD6E0A;
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    list-style: none;
+}
+.header{
+    background: #fadfdf;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center    ;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: 40px;
+    /*margin: 50px 110px; */
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.title{
+    font-weight: 700;
+    font-size: 85px;
+
+
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+img{
+    max-width: 15%;
+    min-height: 10%;
+}
+.discription{
+    color: #666260;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* About*/
+main{
+    min-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    
+    background: #fadfdf;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+.section-discription{
+    text-align: center;
+    color: rgb(247, 143, 16);
+    font-size: 18px;
+
+}
+.about-in{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.info-title{
+    font-size: 20px;
+    color: #666260;
+}
+.info-dis{
+    font-weight: 700;
+    font-size: 20px;
+    color: #666260;
+
+}
+
+/* What I Do */
+section{
+    margin-top: 130px;
+}
+
+.skill-contain{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-discription{
+    color: #666260;
+
+}
+/* Resume Section */
+.main-div{
+    display: flex;
+    padding: 10px;
+    gap: 24px;
+    
+}
+.text-1{
+    padding: 20px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    
+}
+.text-2{
+    padding: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-1{
+    display: flex;
+    background-color: #FFF8F3;
+    gap: 100px;
+    padding: 130px 200px;
+}
+
+.footer-1 input, textarea{
+    margin-bottom: 24px;
+    
+}
